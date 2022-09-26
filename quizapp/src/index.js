@@ -5,6 +5,7 @@ import quizService from "./quizService";
 import QuestionBox from "./components/QuestionBox";
 import Result from "./components/Results";
 
+// component
 class Quiz extends Component {
 
     state = {

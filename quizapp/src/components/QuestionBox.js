@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+// the question and showing the options
 const QuestionBox = ({question, options, selected}) => {
   const [answer, setAnswer] = useState(options);
   return (
